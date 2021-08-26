@@ -1,4 +1,4 @@
-# Smile Up Dental, Kathmandu, Nepal
+# Smile Up Dental, Ranibari, Samakhusi, Kathmandu, Nepal
 
 https://dpk.li/aRv1rQ
 
