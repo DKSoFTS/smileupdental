@@ -22,12 +22,17 @@
       margin: 0 10%;
       margin-top: 30px;
       margin-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 
     img {
       display: block;
-      width: 100%;
-      max-width: 100%;
+      /* width: 100%;
+      max-width: 100%; */
+      width: auto;
+      max-width: auto;
       box-shadow: -1px 1px 2px 13px #866992;
       margin-bottom: 60px;
       border-radius: 16px;
@@ -59,6 +64,13 @@
       text-shadow: 1px 1px 0px #0008fb;
       font-size: 2.5rem;
     }
+
+    @media only screen and (max-width: 600px) {
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -82,7 +94,8 @@
       Dental doctors. Our aim is to help each individual in attaining and maintaing long term oral health and healthy
       beautiful smile you deserve.</p>
   </div>
-  <footer><a target="_blank" href="https://www.facebook.com/Prabhat19477">Visit our facebook page for more information</a></footer>
+  <footer><a target="_blank" href="https://www.facebook.com/Prabhat19477">Visit our facebook page for more
+      information</a></footer>
 </body>
 
 </html>
